@@ -3,13 +3,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://code.highcharts.com/highcharts.js"></script>
   <style>
+    
     body {
+      background: #000;
       min-width: 310px;
     	max-width: 800px;
     	height: 400px;
       margin: 0 auto;
     }
     h2 {
+      color: aqua;
       font-family: Arial;
       font-size: 2.5rem;
       text-align: center;
@@ -17,13 +20,15 @@
   </style>
 </head>
 <body>
-  <h2>ESP8266 Distance Plot</h2>
+  <h2>GRAPH</h2>
   <div id="chart-distance" class="container"></div>
 </body>
 <script>
 var chartT = new Highcharts.Chart({
+  backgroundColor: '#f1f8e9',
   chart:{ renderTo : 'chart-distance' },
-  title: { text: 'HC-SR04 Distance' },
+  title: { text: 'Heart beat monitoring System',
+           fontColor: 'aqua' },
   series: [{
     showInLegend: false,
     data: []

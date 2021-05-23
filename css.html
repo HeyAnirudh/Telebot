@@ -22,6 +22,13 @@ body {
 h2, h3 {
     text-align: center;
 }
+#dash {
+    position: relative;
+    height: 10%;
+    border-bottom:2px solid ;
+    background-color:rgba(236, 146, 146, 0.746);
+
+}
 #wrap {
 height: 100%;
 position: relative;
@@ -34,32 +41,50 @@ position: relative;
   right: 0px;
 }
 .window { 
-  width:50%;
+  /* width:50%; */
   position:relative;
   float:left;
-  height:100%;
+  height:90%;
 
 }
 .pane { 
   width: 100%;
   position: relative;
-  height: 50%;
+  height: 33.3%;
   text-align: right;
  }
  #pane1{
-   border-bottom:1px dashed;
+   border-bottom:2px solid;
  }
+ #pane2{
+   border-bottom:2px solid;
+ }
+ #pane3{
+   border-bottom:2px solid;
+ }
+ 
 #window1 {
-      border-right:1px solid;
+      width: 75%;
+      height: 90%;
+      border-top: 2px solid;
+      border-right:2px solid;
+      border-bottom:2px solid;
+      background: rgba(163, 163, 235, 0.842);
 }
 #window2 {
+    width: 25%;
   border-left:1px solid;
+  border-right: 2px solid;
 }
 </style>
 	<meta charset="utf-8">
 	<title>lmao</title>
 </head>
 <div id="wrap">
+    <div id= "dash">
+        <h2>Dash board</h2>
+
+    </div>
     <div id="window1" class="window" >
         <h3>Window 1</h3>
         <p>
@@ -73,6 +98,7 @@ position: relative;
             Pane 1
         </div>
         <div id="pane2" class="pane">Pane 2</div>
+        <div id="pane3" class="pane">Pane 3</div>
     </div>
 </div>
 </body>

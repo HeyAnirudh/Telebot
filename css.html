@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	* {
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    background-color: yellow;
+    overflow: hidden;
+}
+body {
+    height: 100%;
+    background-color: #ddd;
+}
+#header {
+    height: 10%;
+    border-bottom: 3px solid red;
+}
+h2, h3 {
+    text-align: center;
+}
+#wrap {
+height: 100%;
+position: relative;
+
+}
+.window-banner{
+  position: absolute;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+}
+.window { 
+  width:50%;
+  position:relative;
+  float:left;
+  height:100%;
+
+}
+.pane { 
+  width: 100%;
+  position: relative;
+  height: 50%;
+  text-align: right;
+ }
+ #pane1{
+   border-bottom:1px dashed;
+ }
+#window1 {
+      border-right:1px solid;
+}
+#window2 {
+  border-left:1px solid;
+}
+</style>
+	<meta charset="utf-8">
+	<title>lmao</title>
+</head>
+<div id="wrap">
+    <div id="window1" class="window" >
+        <h3>Window 1</h3>
+        <p>
+            Helloo
+        </p>
+    </div>
+
+    <div id="window2" class="window">
+        <h3 class="window-banner">Window 2</h3>
+        <div id="pane1" class="pane">
+            Pane 1
+        </div>
+        <div id="pane2" class="pane">Pane 2</div>
+    </div>
+</div>
+</body>
+</html>

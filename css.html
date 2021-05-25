@@ -17,7 +17,7 @@ body {
 }
 #header {
     height: 10%;
-    border-bottom: 3px solid red;
+    border-bottom: 2px solid red;
 }
 h2, h3 {
     text-align: center;
@@ -25,8 +25,8 @@ h2, h3 {
 #dash {
     position: relative;
     height: 10%;
-    border-bottom:2px solid ;
-    background-color:rgba(236, 146, 146, 0.746);
+    border:2px solid ;
+    background-color:rgba(50, 192, 228, 0.883);
 
 }
 #wrap {
@@ -50,32 +50,71 @@ position: relative;
 .pane { 
   width: 100%;
   position: relative;
-  height: 33.3%;
+  height: 50%;
   text-align: right;
  }
  #pane1{
-   border-bottom:2px solid;
+   border:2px solid;
  }
  #pane2{
-   border-bottom:2px solid;
+   border:2px solid;
  }
  #pane3{
-   border-bottom:2px solid;
+   border:2px solid;
  }
  
 #window1 {
       width: 75%;
       height: 90%;
-      border-top: 2px solid;
-      border-right:2px solid;
-      border-bottom:2px solid;
-      background: rgba(163, 163, 235, 0.842);
+      border: 2px solid;
 }
 #window2 {
     width: 25%;
-  border-left:1px solid;
-  border-right: 2px solid;
+  border:2px solid;
 }
+.button {
+  background-color: transparent;
+  border:  1px solid #fff;
+  color: white;
+    font-family:Oxygen;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+     margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+border-radius:12px;
+    
+}
+.button1 {
+  background-color: transparent;
+  border: 1px solid #fff;
+  font-family:Oxygen;
+    color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+     margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+border-radius: 12px;
+}
+    
+.button:hover,.button1:hover {background-color: #3366CC}
 </style>
 	<meta charset="utf-8">
 	<title>lmao</title>
@@ -83,6 +122,8 @@ position: relative;
 <div id="wrap">
     <div id= "dash">
         <h2>Dash board</h2>
+        <a href="#" class="button">Back</a>
+        <a href="#" class="button1">Next</a>
 
     </div>
     <div id="window1" class="window"  >

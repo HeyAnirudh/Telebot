@@ -10,7 +10,7 @@ html {
 }
 body {
     height: 100%;
-    background-color: #ddd;
+    background-color: white;
 }
 #header {
     height: 10%;
@@ -27,6 +27,8 @@ h2, h3 {
     height: 10%;
     border:2px ;
     background-color:#84CEEB/*rgba(50, 192, 228, 0.883)*/;
+    border-radius:12px;
+    top: 2%;
 
 }
 #wrap {
@@ -42,15 +44,17 @@ position: relative;
   right: 0px;
 }
 .window {
+  background-color: whitesmoke;
   border-radius: 50px;
   position:relative;
   float:left;
   height:90%;
   color:  #696969a4;
+  
 
 
 }
-.pane { 
+/* .pane { 
 
   width: 100%;
   position: relative;
@@ -68,16 +72,36 @@ position: relative;
  }
  #pane3{
    border:2px solid;
- }
+ } */
  
 #window1 {
-    width: 75%;
-    height: 90%;
+    width: 71%;
+    height: 92%;
     border: 2px solid;
+    top: 2%;
+    right: 2%;
+    bottom: 2%;
+    left: 2%;
+    
 }
 #window2 {
-    width: 25%;
+    width: 23%;
+    height: 45%;
     border:2px solid;
+    top: 2%;
+    right: 2%;
+    bottom: 2%;
+    left: 4%;
+    
+}
+#window3 {
+  width: 23%;
+  height: 45%;
+  border:2px solid;
+  top: 4%;
+  right: 2%;
+  bottom: 2%;
+  left: 4%;
 }
 .button {
   background-color: transparent;

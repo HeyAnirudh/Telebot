@@ -21,11 +21,12 @@ h2, h3 {
 }
 #dash {
     font-size: 2.5rem;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Georgia, 'Arial', Times, serif;
+    color:white;
     position: relative;
     height: 10%;
     border:2px ;
-    background-color:rgba(50, 192, 228, 0.883);
+    background-color:#84CEEB/*rgba(50, 192, 228, 0.883)*/;
 
 }
 #wrap {

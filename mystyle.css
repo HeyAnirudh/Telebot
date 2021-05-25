@@ -21,7 +21,7 @@ h2, h3 {
 }
 #dash {
     font-size: 2.5rem;
-    font-family:Georgia, 'Arial', Times, serif;
+    font-family:Oxygen;
     color:white;
     position: relative;
     height: 10%;
@@ -35,12 +35,14 @@ position: relative;
 
 }
 .window-banner{
+  border-radius: 50px;
   position: absolute;
   margin: auto;
   left: 0px;
   right: 0px;
 }
 .window {
+  border-radius: 50px;
   position:relative;
   float:left;
   height:90%;

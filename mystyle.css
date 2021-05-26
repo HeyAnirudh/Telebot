@@ -142,6 +142,7 @@ position: relative;
   bottom: 2%;
   top: 91%;
   left: 86.5%;
+  line-height: 200%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 border-radius: 25px;

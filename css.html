@@ -1,10 +1,17 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Visual Telebot</title>
 <html>
 
 <head>
     <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
     <link rel="stylesheet" href="mystyle.css">
-    <meta charset="utf-8">
     <title>Visual Telebot</title>
 </head>
 <div id="wrap">
@@ -31,28 +38,10 @@
         <h3 class="window-banner">Window 3</h3>
 
     </div>
-    <div><a href="#" class="button1">Exit Screen</a></div>
+    <div><a href="openFullscreen();" class="button1">Exit Screen</a></div>
 </div>
 <script>
-
-// This is as close as you can get to full screen in JavaScript:
-
-    window.onload = maxWindow;
-
-    function maxWindow() {
-        window.moveTo(0, 0);
-
-        if (document.all) {
-            top.window.resizeTo(screen.availWidth, screen.availHeight);
-        }
-
-        else if (document.layers || document.getElementById) {
-            if (top.window.outerHeight < screen.availHeight || top.window.outerWidth < screen.availWidth) {
-                top.window.outerHeight = screen.availHeight;
-                top.window.outerWidth = screen.availWidth;
-            }
-        }
-    }
+    
 </script>
 </body>
 

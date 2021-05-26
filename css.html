@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
-<link rel="stylesheet" href="mystyle.css">
-	<meta charset="utf-8">
-	<title>Visual Telebot</title>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="utf-8">
+    <title>Visual Telebot</title>
 </head>
 <div id="wrap">
     <!-- <div id= "dash">
@@ -13,23 +14,46 @@
         <a href="#" class="button1">Next</a>
 
     </div> -->
-    <div id="window1" class="window"  >
+    <div id="window1" class="window">
         <h3>
         </h3>
 
-     <!--  <embed src="http://192.168.0.105:8081/" width="100%" height="100%" overflow: hidden;> -->
-          
-      </embed>
+        <!--  <embed src="http://192.168.0.105:8081/" width="100%" height="100%" overflow: hidden;> -->
+
+        </embed>
     </div>
 
     <div id="window2" class="window">
         <h3 class="window-banner">Window 2</h3>
-        
+
     </div>
     <div id="window3" class="window">
         <h3 class="window-banner">Window 3</h3>
-        
+
     </div>
+    <div><a href="#" class="button1">Exit Screen</a></div>
 </div>
+<script>
+
+// This is as close as you can get to full screen in JavaScript:
+
+    window.onload = maxWindow;
+
+    function maxWindow() {
+        window.moveTo(0, 0);
+
+        if (document.all) {
+            top.window.resizeTo(screen.availWidth, screen.availHeight);
+        }
+
+        else if (document.layers || document.getElementById) {
+            if (top.window.outerHeight < screen.availHeight || top.window.outerWidth < screen.availWidth) {
+                top.window.outerHeight = screen.availHeight;
+                top.window.outerWidth = screen.availWidth;
+            }
+        }
+    }
+</script>
 </body>
+
 </html>

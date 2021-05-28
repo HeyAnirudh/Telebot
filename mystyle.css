@@ -76,7 +76,7 @@ position: relative;
  
 #window1 {
     width: 71%;
-    height: 92%;
+    height: 94%;
     border: 2px solid;
     top: 2%;
     right: 2%;
@@ -86,7 +86,7 @@ position: relative;
 }
 #window2 {
     width: 23%;
-    height: 45%;
+    height: 40%;
     border:2px solid;
     top: 2%;
     right: 2%;
@@ -96,7 +96,7 @@ position: relative;
 }
 #window3 {
   width: 23%;
-  height: 45%;
+  height: 40%;
   border:2px solid;
   top: 4%;
   right: 2%;
@@ -104,7 +104,7 @@ position: relative;
   left: 4%;
 }
 .button {
-  background-color: transparent;
+  background-color: royalblue;
   border:  1px solid #fff;
   color: white;
   font-family:Oxygen;
@@ -125,24 +125,27 @@ position: relative;
     
 }
 .button1 {
-  background-color: transparent;
-  border: 1px solid #fff;
+  background-color: royalblue;
+  border: 2px solid black ;
   font-family:Oxygen;
   color: white;
-  padding: 15px 32px;
+  width: 23%;
+  height: 9%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 30px;
   margin: 4px 2px;
   cursor: pointer;
   margin: 0;
   position: absolute;
-  top: 50%;
-  left: 95%;
+  bottom: 2%;
+  top: 91%;
+  left: 86.5%;
+  line-height: 200%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-border-radius: 12px;
+border-radius: 25px;
 }
     
 .button:hover,.button1:hover {background-color: #3366CC}

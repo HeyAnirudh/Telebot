@@ -5,7 +5,7 @@
 }
 html {
     height: 100%;
-    background-color: yellow;
+    background-image: url("img/cool-background.png");
     overflow: hidden;
 }
 body {

@@ -5,12 +5,13 @@
 }
 html {
     height: 100%;
-    background-image: url("img/cool-background.png");
+    background-image: url("/img/cool-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
 }
 body {
     height: 100%;
-    background-color: white;
 }
 #header {
     height: 10%;
@@ -19,6 +20,7 @@ body {
 h2, h3 {
     text-align: center;
 }
+/* 
 #dash {
     font-size: 2.5rem;
     font-family:Oxygen;
@@ -27,15 +29,15 @@ h2, h3 {
     height: 10%;
     border:2px ;
     background-color:#84CEEB/*rgba(50, 192, 228, 0.883)*/;
-    border-radius:12px;
-    top: 2%;
+    /* border-radius:12px;
+    top: 2%; */
 
-}
+
 #wrap {
 height: 100%;
 position: relative;
-
 }
+
 .window-banner{
   border-radius: 50px;
   position: absolute;
@@ -43,65 +45,46 @@ position: relative;
   left: 0px;
   right: 0px;
 }
+
 .window {
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
   border-radius: 50px;
   position:relative;
   float:left;
   height:90%;
   color:  #696969a4;
-  
-
-
 }
-/* .pane { 
-
-  width: 100%;
-  position: relative;
-  height: 50%;
-  text-align: right;
-  color:  #696969a4;
- }
- #pane1{
-   border:2px solid;
- }
- #pane2{
- 
-   border:2px solid;
-  
- }
- #pane3{
-   border:2px solid;
- } */
  
 #window1 {
     width: 71%;
     height: 94%;
-    border: 2px solid;
-    top: 2%;
+    border:black 4px solid;
+    /* top: 2%;
     right: 2%;
     bottom: 2%;
-    left: 2%;
+    left: 2%; */
     
 }
 #window2 {
     width: 23%;
     height: 40%;
-    border:2px solid;
-    top: 2%;
+    border:black 4px solid;
+    float: right;
+    /* top: 2%;
     right: 2%;
     bottom: 2%;
-    left: 4%;
+    left: 4%; */
     
 }
 #window3 {
   width: 23%;
   height: 40%;
-  border:2px solid;
-  top: 4%;
+  border: black 4px solid;
+  float: right;
+  /* top: 4%;
   right: 2%;
   bottom: 2%;
-  left: 4%;
+  left: 4%; */
 }
 .button {
   background-color: royalblue;
@@ -126,7 +109,7 @@ position: relative;
 }
 .button1 {
   background-color: royalblue;
-  border: 2px solid black ;
+  border: 4px solid black ;
   font-family:Oxygen;
   color: white;
   width: 23%;

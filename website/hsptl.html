@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital's Login</title>
+    <link href='Fonts/gthic.ttf' rel='stylesheet'>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<div>
+
+    <ul>
+        <li><a href="#about">Sign up</a></li>
+
+        <li><a href="index.html">Back to Main</a></li>
+    </ul>
+</div>
+<div class="container">
+    <div class="login">
+        <p>Login for Hospital</p>
+    </div>
+    <button class="button2">Sign in</button>
+    <div class="form">
+        <form action="#">
+            <label for="UID">Unique Login ID:</label><br>
+            <input type="text" id="form" name="UID"><br>
+            <label for="PASS">Password:</label><br>
+            <div class="input-container">
+                <input type="password" />
+                <i class="material-icons visibility">visibility_off</i>
+            </div>
+
+        </form>
+    </div>
+</div>
+</body>
+
+<script>
+    const visibilityToggle = document.querySelector('.visibility');
+
+    const input = document.querySelector('.input-container input');
+
+    var password = true;
+
+    visibilityToggle.addEventListener('click', function () {
+        if (password) {
+            input.setAttribute('type', 'text');
+            visibilityToggle.innerHTML = 'visibility';
+        } else {
+            input.setAttribute('type', 'password');
+            visibilityToggle.innerHTML = 'visibility_off';
+        }
+        password = !password;
+
+    });
+</script>
+
+</html>

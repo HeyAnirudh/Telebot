@@ -50,7 +50,7 @@ li a:hover {
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
-    transform: translate(170%, 320%);
+    transform: translate(170%, 500%);
     background-color: transparent;
     border-radius: 4px;
     font-family: Yu Gothic Light;
@@ -73,23 +73,25 @@ li a:hover {
     text-shadow: 2px 2px #292828;
     padding: 0;
     font-weight: bolder;
-    transform: translate(20%, 10%);
+    transform: translate(60%, 10%);
 }
 
 .container {
     position: relative;
     border: white solid 1px;
     height: 450px;
-    width: 400px;
-    transform: translate(140%, 40%);
+    width: 700px;
+    transform: translate(100%, 40%);
     border-radius: 40px;
+    background: rgba(0, 0, 0, 0.253);
+
 }
 .form{
     
     font-size: 25px;
     font-family: Yu Gothic Light;
     font-weight: bolder; 
-    transform: translate(5%,-30%);
+    transform: translate(10%,40%);
 }
 #form{
     height: 25px;

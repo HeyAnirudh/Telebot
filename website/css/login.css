@@ -81,7 +81,7 @@ li a:hover {
     border: white solid 1px;
     height: 450px;
     width: 700px;
-    transform: translate(100%, 40%);
+    transform: translate(55%, 40%);
     border-radius: 40px;
     background: rgba(0, 0, 0, 0.253);
 
@@ -91,7 +91,7 @@ li a:hover {
     font-size: 25px;
     font-family: Yu Gothic Light;
     font-weight: bolder; 
-    transform: translate(10%,40%);
+    transform: translate(0%,60%);
 }
 #form{
     height: 25px;
